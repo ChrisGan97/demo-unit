@@ -58,10 +58,5 @@
       "prettier --write",
       "npm run test"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }
