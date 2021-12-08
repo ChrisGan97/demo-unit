@@ -8,7 +8,7 @@
         "airbnb",
         "plugin:@typescript-eslint/recommended",
         "plugin:prettier/recommended",
-        "react-app/jest"
+        "plugin:testing-library/react"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -21,7 +21,8 @@
     "plugins": [
         "react",
         "@typescript-eslint",
-        "prettier"
+        "prettier",
+        "testing-library"
     ],
     "rules": {
         "prettier/prettier": "error",
