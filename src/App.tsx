@@ -3,8 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 
 const App = function () {
-    const testre = '';
-
     return (
         <div className="App">
             <header className="App-header">
@@ -13,7 +11,7 @@ const App = function () {
                     Edit <code>src/App.tsx</code> and save to reload.
                 </p>
                 <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-                    !Another Text another!!
+                    Learn React
                 </a>
             </header>
         </div>

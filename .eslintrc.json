@@ -7,8 +7,7 @@
         "plugin:react/recommended",
         "airbnb",
         "plugin:@typescript-eslint/recommended",
-        "plugin:prettier/recommended",
-        "plugin:testing-library/react"
+        "plugin:prettier/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -20,7 +19,6 @@
     },
     "plugins": [
         "react",
-        "@typescript-eslint",
         "prettier",
         "testing-library"
     ],
@@ -37,7 +35,7 @@
         "@typescript-eslint/no-shadow": ["error"],
         "@typescript-eslint/no-unused-vars": "error"
     },
-    "settings": {
+     "settings": {
         "import/resolver": {
         "typescript": {}
         }
